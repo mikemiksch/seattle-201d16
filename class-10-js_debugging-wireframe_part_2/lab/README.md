@@ -56,6 +56,9 @@ OPTIONAL: Add some JavaScript functionality! Get creative, but make sure the sty
 
 ---
 
-Submit: You'll be committing regularly and working on branches for additional Git practice. Submit the link to your most recent pull request into the Canvas assignment.
+
+## Submitting Your Assignment
+
+You'll be committing regularly and working on branches for additional Git practice. Submit the link to your most recent pull request into the Canvas assignment. **Both partners will be submitting the same pull request**.
 
 ## Remember, this assignment is due at 4:59p this afternoon!!

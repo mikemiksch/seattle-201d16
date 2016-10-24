@@ -25,7 +25,7 @@ var samArray = ['Nick', null, 'Hunt-Walker', 0, true, ['Nikko', 'Mac', 'Anna']];
 We can declare objects using object literal notation:
 
 1. curly braces `{}`
-2. key: value pairs - colon between k/v, comma after each pair (except the last one)
+2. 'key': value pairs - colon between k/v, comma after each pair (except the last one)
 3. properties - any data type, including other objects
 4. methods - function(s) associated with the object
 
@@ -37,7 +37,7 @@ var genericObject = {
   key1: value1,
   key2: value2,
   'multi-word key': value3,
-  method: function() {
+  methodName: function() {
     //do stuff
   }
 };
@@ -50,6 +50,7 @@ var nick = {
   middleName: null,
   lastName: 'Hunt-Walker',
   rating: 0,
+  age: 30,
   isABoss: true,
   students: ['Nikko', 'Mac', 'Anna'],
 
@@ -65,17 +66,22 @@ var nick = {
 
 ## Accessing Properties & Calling Methods
 1. accessing properties
-	1. dot notation
-	2. bracket notation - w/string, outside variable. multi-word keys
+	* dot notation
+	* bracket notation - w/string, outside variable. multi-word keys
 2. calling methods
-	1. `objectName.method();`
-	2. methods declared in context of an object must be called in that context, so calling `method();` gives an error
+	* `objectName.method();`
+  * Like any other function, **methods** can take arguments: `objectName.method(arg1, arg2, ...)`
+	* Methods declared in context of an object must be called in that context, so calling `method();` gives an error
 
 ## Modifying Objects
-1. adding new properties, methods
-	1. use `=` instead of `:` because we're assigning a value
+* adding new properties, methods
+	- use `=` instead of `:` because we're assigning a value outside of the object literal declaration
 
 ```javascript
+nick.undergrad = 'CUNY York College';
+
+nick.carsOwned = ['Toyota Camry', 'Nissan Altima'];
+
 nick.employer = {
   name: 'Code Fellows',
   location: 'Seattle'
@@ -86,17 +92,26 @@ nick.logName = function() {
 };
 ```
 
-2. clearing & removing
-	1. set value to '', 0, or null
-	2. `delete`	operator
+* clearing & removing
+	1. (clear) set value to '', 0, or null
+	2. (remove) `delete`	operator
+
+```javascript
+nick.age = 0;
+console.log(age);
+
+delete nick["carsOwned"];
+
+delete nick.logName;
+```
 
 ## Built-in Objects
-1. String, Array, Document, Math
+1. String, Array, Document, Math, Window
 
-## Prototypes
+## Prototypes (more tomorrow)
 1. Every object has a prototype. It can be assigned explicitly, or is set to the global Object by default
-2. All objects have the props & methods of their prototype
-3. If a prop or method can't be found on the object itself, the JS engine will look up the prototype chain for it
+2. All objects have the properties & methods of their prototype
+3. If a property or method can't be found on the object itself, the JS engine will look up the prototype chain for it
 
 ## this
 1. complicated!
@@ -108,5 +123,5 @@ nick.whatIsThis = function() {
   console.log(this);
 }
 
-nick.whatIsThis(); //logs the sam object
+nick.whatIsThis(); //logs the "nick" object
 ```

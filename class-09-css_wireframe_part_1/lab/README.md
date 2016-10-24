@@ -27,3 +27,13 @@ Here's your other tasks for today:
 - Make two additional pages:
 	- Mock up an order form that would be public facing (**store.html**) so that visitors to the website can order salmon cookies and swag. That form would need to receive all of the things you'd expect on an order form: name, address, payment info, products to order, quantities, special instructions, and so on.
 	- A second 'private' page (**order-processing.html**) that shows a list of pending orders and the individual order details. The business owner can then process the orders by clicking a button next to the order that then moves that list item to a 'Filled Orders' list at the bottom of the page.
+
+
+## Submitting Your Assignment
+
+1. When your work is complete and ready for submission, **open and merge a Pull Request** from `thursday-layouts` to `master` ***ON YOUR FORK***.
+2. **Open a pull request** from the `master` branch in your repository (*driver*) to the `master` branch in your partner's (*navigator*) repository.
+3. Submit the link to the above Pull Request [step 2 here, NOT step 1] to Canvas
+4. Add a comment to this Canvas submission with answers to the following questions.
+  - How did this go, overall?
+  - What observations or questions do you have about what you've learned so far?
