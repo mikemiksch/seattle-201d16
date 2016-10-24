@@ -34,10 +34,13 @@ link.setAttribute('href', 'http://www.facebook.com');
 // STEP 1: Create the List Item
 var newItem = document.createElement('li');
 newItem.className = 'cold meat';
+
 // STEP 2: Add content to the list item
 newItem.innerText = 'chicken';
+
 // STEP 3: Access the unordered list I want to add to
 var ul = document.getElementsByTagName('ul')[0];
+
 // STEP 4: Append new item to the list
 ul.appendChild(newItem);
 setTimeout(function(){ // setTimeout runs a function after some time
