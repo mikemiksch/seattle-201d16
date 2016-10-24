@@ -63,6 +63,7 @@ OPTIONAL: Add some JavaScript functionality! Get creative, but make sure the sty
 2. Submit the link to your most recent pull request into the Canvas assignment.
 3. **Both partners will be submitting the same pull request**.
 4. Add comments to your Canvas submission with answers to the following questions.
+  - Who was your partner?
   - How was the pair component of this project overall?
   - In what parts of the project did you contribute the most?
   - What did you learn from your partner? What were you able to teach?
