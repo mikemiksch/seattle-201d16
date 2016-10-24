@@ -1,8 +1,12 @@
-# Assignment Overview: Lab for Class 8
+# Assignment Overview: Lab for Class 8 - Pat's Salmon Cookies
 
 Today you will be adding a form to your existing cookie stand project so that you can add new locations to the table by simply inputting their information with the form.
 
-### Instructions
+**Today's work is done in pairs. These pairs will be announced in class.**
+
+Today's working branch will be `wednesday-forms`.
+
+## Instructions
 
 Here's some of the steps you'll need to take, but not necessarily in this order:
 

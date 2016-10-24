@@ -1,4 +1,10 @@
-# Class 9 - Lab Assignment
+# Assignment Overview: Lab for Class 9 - Pat's Salmon Cookies
+
+**Today's work is done in pairs. These pairs will be announced in class.**
+
+Today's working branch will be `thursday-layouts`.
+
+## Instructions
 
 Continue working on the functionality of your **sales.html** page if you do not have it working 100% yet, including the row of totals across the bottom.
 
@@ -10,13 +16,13 @@ Here's your other tasks for today:
 
 - Apply a similar style to the **sales.html** page.
 
-	### Stretch Goals (Not required! Do either one, both, or neither)
+## Stretch Goals (Not required! Do either one, both, or neither)
 
 - Give your input form functionality to update the data for a location that is already in the table. This is going to require some additional pieces, such as:
 	- Some kind of `if` statement to test whether the inputted cookie stand location name matches one that is already in the table (or other mechanism to indicate which location to update)
 	- The new input numbers need to be run through the calculation methods as with the original creation of the instances
 
-- Make a style guide, using [this one that a team Brian was on made for Everlast](http://everlast.com/style-guide) as a model.
+- Make a style guide, using [this one that a team another instructor was on made for Everlast](http://everlast.com/style-guide) as a model.
 
 - Make two additional pages:
 	- Mock up an order form that would be public facing (**store.html**) so that visitors to the website can order salmon cookies and swag. That form would need to receive all of the things you'd expect on an order form: name, address, payment info, products to order, quantities, special instructions, and so on.
