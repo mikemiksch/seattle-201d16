@@ -16,14 +16,6 @@
 - JS Chapter 3: "Functions, Objects, and Methods" (pp.101-144)
 - JS Chapter 5: "The Document Object Model"
 
----
-
-<a id="codereview"></a>
-### Code Review
-
-- How did the lab go this morning? Let's go over it.
-
-[-top-](#top)
 
 ---
 
