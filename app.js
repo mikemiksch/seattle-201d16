@@ -14,9 +14,22 @@ function Location(storeName, minCust , maxCust, avgCookieSales){
   };
   //build table within this function
   this.forEachHour = function forEachHour (){
+    var tr = document.createElement('tr');
+    var table = document.getElementById('buildTable');
+    table.appendChild(tr);
+    // console.log('tr: ', tr);
     for (var i = 0; i < hours.length; i++) {
       console.log(hours[i] + this.dailyCookieSalesPerHour[i]);
+      var td = document.createElement('td');
+      td.textContent = hours[i] + this.dailyCookieSalesPerHour[i];
+      console.log('td after textContent: ', td);
+      tr.appendChild(td);
+      // thead.appendChild(tr);
     }
+
+ //    var li = document.createElement('li');
+ // li.innerText = 'Total Sales: ' + totalSales + ' cookies';
+ // ul.appendChild(li);
   };
 //generate randomCookiesSalesPerHour
   this.randomCookieSalesPerHour = function (){
