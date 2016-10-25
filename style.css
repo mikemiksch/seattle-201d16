@@ -1,0 +1,24 @@
+#topBanner{
+  text-font: Guardian;
+  text-color: #660033;
+  padding: 6, 6, 6, 6;
+  background-color: #66ffff;
+}
+
+#subTitle{
+  text-font: Zizo slab;
+  text-color: #660033;
+}
+
+#salmonPic {
+  padding: 2, 2, 2, 2;
+  background-color: #669999;
+}
+
+.bodyStyle{
+  back-ground: #00ffcc;
+}
+
+.footerStyle{
+
+}
