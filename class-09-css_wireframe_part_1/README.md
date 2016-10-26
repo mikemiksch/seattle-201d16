@@ -3,20 +3,19 @@
 
 - Announcements
   - It's not to soon to start thinking about final projects. Let's have a conversation about that, because a week from tomorrow you're going to be divided up into teams and starting on your projects.
+  - I have a doctor's appointment this afternoon so I'll be leaving at 11:45 am, but will be back as soon as I'm done.
 
-- [Code Review of Nick's version of the weekly project](#codereview) *[75 minutes]*
+- [Code Review](#codereview) *[As long as it takes]*
 
-- [Layout Demo 1](#layout1) *[60 minutes]*
+- [Layout Demo 1 - Concept into Code](#layout1) *[More time]*
 
 *15-minute break*
 
-- [Layout Demo 2](#layout2) *[75 minutes]*
+- [Layout Demo 2 - Concept into Code](#layout2) *[Even more time]*
 
 ## Readings due today
 
-- Article 1
-- Article 2
-- Article 3
+**Review anything that you're shaky on!**
 
 <a id="layout1"></a>
 ## Layout Demo 1
