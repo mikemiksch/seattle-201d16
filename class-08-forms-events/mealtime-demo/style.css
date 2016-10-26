@@ -1,0 +1,33 @@
+h1 {
+    font-size: 2em;
+    font-weight: 600;
+    font-family: Arial;
+    margin-bottom: 20px;
+}
+
+thead {
+  font-size: 1.5em;
+  text-align: center;
+  font-family: Arial;
+}
+
+thead td {
+  padding: 20px;
+  background-color: aquamarine;
+}
+
+tbody td {
+  padding: 5px;
+}
+tbody td:nth-child(even) {
+  background-color: rgba(20, 20, 20, 0.8);
+  color: white;
+  text-align: right;
+}
+tbody tr:nth-child(odd) {
+  background-color: rgba(200, 0, 0, 0.3);
+}
+
+section {
+  margin-bottom: 50px;
+}
