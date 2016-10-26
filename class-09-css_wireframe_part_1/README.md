@@ -21,6 +21,7 @@
 ## Layout Demo 1
 
 *(Here's a reminder of topics from Chapter 15 on CSS layout)*
+
 We'll be turning the pdfs inside of `design-comp-and-instructions` into a functioning site!
 
 - p.361: Key concepts in positioning (block/inline)
