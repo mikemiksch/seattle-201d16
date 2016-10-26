@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Class 8's Form &amp; Event Demo</title>
+    <link rel="stylesheet" href="reset.css" media="screen" title="no title">
+    <link rel="stylesheet" href="style.css" media="screen" title="no title">
+  </head>
+  <body>
+    <main id="content">
+      <h1>It's Meal Time!</h1>
+      <!--
+      Build a form that takes user input,
+      where the user can add ingredients
+      from the ingredients list
+      and build a new meal out of them.
+
+      And displays calories for that meal
+      -->
+      <section id="table-goes-here">
+
+      </section>
+      <section>
+        <form id="the-form" action="" method="post">
+          <fieldset>
+            <input id="ingredient" type="text" name="ingredient" value="" placeholder="Type ingredient from above" size=100>
+          </fieldset>
+          <input id="submit" type="submit" name="submit" value="Add Ingredient">
+        </form>
+
+        <button id="make-meal" type="button" name="make-meal">Make My Meal!</button>
+      </section>
+      <section id="food-section">
+      </section>
+    </main>
+    <script src="data.js" charset="utf-8"></script>
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
