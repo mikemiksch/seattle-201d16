@@ -1,0 +1,15 @@
+td {
+  border: thin solid black;
+}
+tr:nth-child(even) {
+  background-color: #bcbcbc;
+}
+/*
+for reference!
+tr td:nth-child(odd) {
+  background-color: rgba(0, 200, 0, 0.5);
+}*/
+
+.green {
+  background-color: rgba(0, 200, 0, 0.2);
+}
