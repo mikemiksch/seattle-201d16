@@ -74,14 +74,3 @@ for (var i = 0; i < hours.length; i++){
   // hours[i].cookiesPerHour();
   // hours[i].randomCookieSalesPerHour();
 }
-
-// var allMeals = [
-//   new Meal(['eggs', 'bacon', 'bacon', 'bacon', 'bacon', 'bacon', 'pancakes'], 'Breakfast'),
-//   new Meal(['rice noodles', 'chicken', 'onions', 'hoisin sauce', 'hot sauce'], 'Pho'),
-//   new Meal(['steak', 'potatoes', 'sweet corn', 'broccoli', 'carrots'], 'Steak and Potatoes')
-// ];
-//
-// for (var i = 0; i < allMeals.length; i++) {
-//   allMeals[i].renderMeal();
-//   allMeals[i].renderCalories();
-// }
