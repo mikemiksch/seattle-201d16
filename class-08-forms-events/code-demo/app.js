@@ -23,6 +23,7 @@ cars[1].drive(); // also has the method
 // I want the total of all stores across all hours
 // And add it to the total row as the last td element
 
+/*
 var totalRow = document.getElementById('total-row');
 var totalSales = 0;
 for (var i = 1; i < totalRow.children.length; i++){
@@ -33,3 +34,31 @@ for (var i = 1; i < totalRow.children.length; i++){
 var td = document.createElement('td');
 td.innerText = totalSales;
 totalRow.appendChild(td);
+*/
+
+// var submit = document.getElementById('submit');
+// submit.addEventListener('click', function(event){
+//   event.preventDefault();
+//   console.log(event);
+//   alert('You clicked!');
+// });
+
+// var username = document.getElementById('username');
+// username.addEventListener('keypress', function(event){
+//   console.log(event);
+// });
+
+function logThis(event){
+  console.log(event);
+};
+
+// var password = document.getElementById('password');
+// password.addEventListener('blur', logThis);
+// password.addEventListener('focus', logThis);
+
+var form = document.getElementById('the-form');
+function collectData(event){
+  event.preventDefault();
+  console.log(event.target[2].value);
+};
+form.addEventListener('submit', collectData);

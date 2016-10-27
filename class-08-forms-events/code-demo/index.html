@@ -6,15 +6,16 @@
     <link rel="stylesheet" href="style.css" media="screen" title="no title">
   </head>
   <body>
-    <form method="GET">
+    <form method="GET" id="the-form">
       <fieldset>
         <legend>Stuff</legend>
         <ul>
           <li>
-            <input type="text" name="username" value="" maxlength="30" size="30" required/><br/>
+            <input id="username" type="text" name="username" value="" maxlength="30" size="30" required/><br/>
           </li>
           <li>
-            <label for="password">Password: </label><input type="password" name="password" value="" /><br/>
+            <label for="password">Password: </label>
+            <input id="password" type="password" name="password" value="" /><br/>
           </li>
           <li>
             <textarea name="content" rows="8" cols="40" placeholder="Leave your comment here!"></textarea>
@@ -47,7 +48,8 @@
         <input type="email" name="name" value="">
         <input type="number">
       </p>
-      <input type="submit" value="Go!">
+      <input type="submit" value="Go!" id="submit">
     </form>
+    <script src="app.js" charset="utf-8"></script>
   </body>
 </html>
