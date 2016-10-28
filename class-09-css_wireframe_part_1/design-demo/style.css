@@ -1,7 +1,7 @@
 body {
   width: 800px;
   margin: auto;
-  font-family: helvetica;
+  font-family: helvetica;d
 }
 
 header {
@@ -69,7 +69,8 @@ aside h2 {
 }
 .hline.black {
   background-color: black;
-  width: 40%;
+  width: 20%;
+  margin-bottom: 30px;
 }
 
 aside p {
@@ -90,6 +91,10 @@ aside p {
   cursor: pointer;
   font-weight: 600;
 }
+.red-btn:hover {
+  background-color: #A00000;
+}
+
 #slider-circles {
   position: absolute;
   bottom: 20px;
@@ -109,4 +114,77 @@ aside p {
 }
 #slider-circles .circle.active {
   background-color: white;
+}
+
+/* MAIN CONTENT */
+main {
+  background-color: #EAEAEA;
+}
+
+h3 {
+  text-align: center;
+  font-size: 2em;
+  margin: 30px auto 20px;
+}
+
+.kitten-feature {
+  overflow: hidden;
+  width: 750px;
+  margin: 20px auto;
+}
+.kitten-feature article {
+  float: left;
+  width: 350px;
+  margin: 0px 10px;
+}
+
+.kitty-details {
+  background-color: #3A3A3A;
+  color: white;
+  height: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.kitty-details h4 {
+  font-size: 1.7em;
+  margin: 0 0 10px;
+  font-weight: 100;
+}
+
+.kitty-details .hline {
+  width: 40%;
+  margin: 0 0 20px;
+}
+
+.kitty-details li {
+  font-size: 1.3em;
+  font-weight: 100;
+  line-height: 1.4em;
+}
+
+.kitty-details p {
+  font-size: 1.3em;
+  font-weight: 100;
+  line-height: 1.1em;
+  margin-top: 30px;
+}
+
+footer {
+  color: white;
+  background-color: #3a3a3a;
+  font-size: 1.3em;
+  text-align: center;
+  padding: 20px;
+}
+
+.kitten-feature {
+  overflow: hidden;
+  width: 750px;
+  margin: 20px auto 0px;
+  padding-bottom: 20px;
+}
+
+nav i:hover {
+  opacity: 0.5;
 }
