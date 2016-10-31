@@ -12,8 +12,6 @@ Do today's work on a branch called `busmall-charts`.
 
 * **Stretch Goal** (not required; only if you want an additional challenge): Apply some data organization prior to charting. Maybe you chart only the top 5 or top 10 items? Maybe you sort the click-through percentage and then only show the top 5, in order? Use your creativity. Think about how you would like this information to be presented if you were trying to make decisions about products to manufacture and market, come up with a plan for it, and build it!
 
-Submit your assignment on Canvas as usual.
-
 ## Submitting Your Assignment
 
 1. When your work is complete and ready for submission, open a Pull Request from `busmall-charts` to `master`.

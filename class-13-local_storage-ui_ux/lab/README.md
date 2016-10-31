@@ -2,6 +2,8 @@
 
 Be sure to go back and re-read [the original problem domain from Class 11](../../../class-11-av-practical-clicktracker/README.md). Today we'll be focusing on implementing all of the little pieces that have not been finished so far.
 
+***NOTE THIS IS A PAIRED ASSIGNMENT***
+
 Do today's work on a branch called `busmall-storage`.
 
 ## New Bus Mall Technical Goal
